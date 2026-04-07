@@ -92,7 +92,7 @@ export default function Footer() {
                 </svg>
                 <span className="leading-relaxed">
                   北京市朝阳区朝阳北路 36 号院
-                  <br />1 号楼 13 层 2 单元 1310
+                  <br />1 号楼
                 </span>
               </li>
               <li className="flex items-start gap-2.5 text-sm text-gray-400">
