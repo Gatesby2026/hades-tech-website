@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -20,9 +21,14 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 shrink-0">
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-              <span className="text-white font-bold text-lg">H</span>
-            </div>
+            <Image
+              src="/logo.svg"
+              alt="黑帝斯科技"
+              width={40}
+              height={40}
+              priority
+              className="w-10 h-10"
+            />
             <div className="hidden sm:block">
               <div className="font-bold text-lg text-gray-900 leading-tight">
                 黑帝斯科技

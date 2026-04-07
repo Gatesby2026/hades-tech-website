@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
@@ -8,9 +9,13 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-                <span className="text-white font-bold text-lg">H</span>
-              </div>
+              <Image
+                src="/logo.svg"
+                alt="黑帝斯科技"
+                width={40}
+                height={40}
+                className="w-10 h-10"
+              />
               <div>
                 <div className="font-bold text-white text-lg leading-tight">
                   黑帝斯科技

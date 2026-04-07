@@ -19,6 +19,13 @@ export const metadata: Metadata = {
   description:
     "北京黑帝斯科技有限公司是一家专注于企业级软件开发的科技公司，提供定制化软件开发、系统集成、技术咨询等专业服务。",
   keywords: "软件开发,企业软件,定制开发,系统集成,北京黑帝斯科技",
+  icons: {
+    icon: [
+      { url: "/logo.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/logo.svg",
+    apple: "/logo.svg",
+  },
 };
 
 export default function RootLayout({
