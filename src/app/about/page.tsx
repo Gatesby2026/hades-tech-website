@@ -6,7 +6,7 @@ export const metadata: Metadata = {
 };
 
 const timeline = [
-  { year: "2018", title: "公司成立", desc: "北京黑帝斯科技有限公司正式注册成立，开启创业征程" },
+  { year: "2017", title: "公司成立", desc: "2017 年 2 月 20 日，北京黑帝斯科技有限公司正式注册成立，开启创业征程" },
   { year: "2019", title: "团队扩展", desc: "核心研发团队组建完成，承接首批企业级定制开发项目" },
   { year: "2020", title: "业务突破", desc: "累计服务客户突破 20 家，涉及金融、医疗等多个行业" },
   { year: "2021", title: "产品化转型", desc: "推出自研产品线，实现从纯项目制向产品+服务模式转型" },
@@ -30,7 +30,7 @@ export default function AboutPage() {
           <div className="max-w-3xl">
             <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6">关于我们</h1>
             <p className="text-lg text-gray-300 leading-relaxed">
-              北京黑帝斯科技有限公司成立于 2018 年，是一家专注于企业级软件开发的高新技术企业。
+              北京黑帝斯科技有限公司成立于 2017 年 2 月，是一家专注于企业级软件开发的高新技术企业。
               我们致力于用前沿技术帮助企业实现数字化转型，提升运营效率。
             </p>
           </div>
