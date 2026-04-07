@@ -8,7 +8,6 @@ const navItems = [
   { label: "首页", href: "/" },
   { label: "关于我们", href: "/about" },
   { label: "服务项目", href: "/services" },
-  { label: "案例展示", href: "/cases" },
   { label: "联系我们", href: "/contact" },
 ];
 

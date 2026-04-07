@@ -82,10 +82,10 @@ export default function Home() {
                 获取解决方案
               </Link>
               <Link
-                href="/cases"
+                href="/services"
                 className="inline-flex items-center justify-center px-8 py-3.5 border border-gray-600 text-gray-300 font-medium rounded-lg hover:bg-white/5 transition-colors text-base"
               >
-                查看案例
+                了解服务
               </Link>
             </div>
           </div>
